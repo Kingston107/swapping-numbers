@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int x;
+clrscr();
+printf("Enter the choice ");
+scanf("%d",&x);
+switch(x)
+{
+case 1 : printf(" Pizza\nRs239");
+          break;
+case 2 : printf ("Burger\nRs129");
+          break;
+case 3 : printf(" Pasta\nRs179");
+          break;
+case 4 : printf(" French fries\nRs99");
+          break;
+case 5 : printf (" Sandwitch\nRs149);
+          break;
+default : printf("invalid input ");
+          break;
+}
+getch();
+}
