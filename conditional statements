@@ -1,0 +1,20 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int m;
+clrscr();
+printf("Enter the marks\n");
+scanf("%d",&m);
+if(m>=85 && m<=100)
+printf("Grade A");
+elseif(m>=70 && m<=84)
+printf("Grade B");
+elseif(m>=55 && m<=69)
+printf(" Grade C");
+elseif(m>=40 && m<=54)
+printf("Grade D");
+else
+printf("grade f");
+getch();
+}
